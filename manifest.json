@@ -1,0 +1,13 @@
+{
+    "name": "Pokemon",
+    "start_url":"/cartas_pokemon",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons":[
+        {
+            "src": "img/incone.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
