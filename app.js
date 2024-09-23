@@ -97,35 +97,35 @@ function sortear() {
 
     //logica para trocar a foto
     if (nome === "Pikachu") {
-        foto.innerHTML = `<img src ="/img/pikachu.png">`
+        foto.innerHTML = `<img src ="img/pikachu.png">`
 
 
     } else if (nome === "Meowth") {
-        foto.innerHTML = `<img src ="/img/meowth.png">`
+        foto.innerHTML = `<img src ="img/meowth.png">`
 
     } else if (nome === "Psyduck") {
-        foto.innerHTML = `<img src ="/img/psyduck.png">`
+        foto.innerHTML = `<img src ="img/psyduck.png">`
 
     } else if (nome === "Bulbassauro") {
-        foto.innerHTML = `<img src ="/img/bubassauro.png">`
+        foto.innerHTML = `<img src ="img/bubassauro.png">`
 
     } else if (nome === "Squirtle") {
-        foto.innerHTML = `<img src = "/img/squirtle.png">`
+        foto.innerHTML = `<img src = "img/squirtle.png">`
 
     } else if (nome === "Mankey") {
-        foto.innerHTML = `<img src = "/img/mankey.png">`
+        foto.innerHTML = `<img src = "img/mankey.png">`
 
     } else if (nome === "Snorlax") {
-        foto.innerHTML = `<img src = "/img/snorlax.png">`
+        foto.innerHTML = `<img src = "img/snorlax.png">`
 
     } else if (nome === "Cartepie") {
-        foto.innerHTML = `<img src = "/img/cartepie.png">`
+        foto.innerHTML = `<img src = "img/cartepie.png">`
 
     } else if (nome === "Evee") {
-        foto.innerHTML = `<img src = "/img/evee.png">`
+        foto.innerHTML = `<img src = "img/evee.png">`
 
     } else if (nome === "Charmander") {
-        foto.innerHTML = `<img src = "/img/charmander.png">`
+        foto.innerHTML = `<img src = "img/charmander.png">`
     }
 
     document.getElementById('infDir').innerHTML = `<div>${frase}</div>`
