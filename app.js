@@ -19,7 +19,7 @@ function sortear() {
 
     // determinar foto do pokmento
     let foto = document.getElementById("foto")
-    
+
 
     // LÓGICA PARA MUDAR DE COR O NOME
     if (nome === "Pikachu") {
@@ -27,73 +27,73 @@ function sortear() {
         document.getElementById("supEsq").style.color = "#FFD700"
         document.getElementById("infDir").style.backgroundColor = "#000000"
         document.getElementById("supEsq").style.backgroundColor = "#000000"
-      
 
-    } 
+
+    }
     if (nome === "Meowth") {
         document.getElementById("infDir").style.color = "#A0522D"
         document.getElementById("supEsq").style.color = "#A0522D"
         document.getElementById("infDir").style.backgroundColor = "#DEB887"
         document.getElementById("supEsq").style.backgroundColor = "#DEB887"
 
-    } 
+    }
 
     if (nome === "Psyduck") {
         document.getElementById("infDir").style.color = "#000000"
         document.getElementById("supEsq").style.color = "#000000"
         document.getElementById("infDir").style.backgroundColor = "#FFFF00"
         document.getElementById("supEsq").style.backgroundColor = "#FFFF00"
-    } 
+    }
 
-    if(nome === "Bulbassauro"){
+    if (nome === "Bulbassauro") {
         document.getElementById("infDir").style.color = "#006400"
         document.getElementById("supEsq").style.color = "#006400"
         document.getElementById("infDir").style.backgroundColor = "#32CD32"
         document.getElementById("supEsq").style.backgroundColor = "#32CD32"
     }
 
-    if(nome === "Cartepie"){
+    if (nome === "Cartepie") {
         document.getElementById("infDir").style.color = "#98FB98"
         document.getElementById("supEsq").style.color = "#98FB98"
         document.getElementById("infDir").style.backgroundColor = "#006400"
         document.getElementById("supEsq").style.backgroundColor = "#006400"
     }
 
-    if(nome === "Mankey"){
+    if (nome === "Mankey") {
         document.getElementById("infDir").style.color = "#D2691E"
         document.getElementById("supEsq").style.color = "#D2691E"
         document.getElementById("infDir").style.backgroundColor = "#DEB887"
         document.getElementById("supEsq").style.backgroundColor = "#DEB887"
     }
 
-    if(nome === "Squirtle"){
+    if (nome === "Squirtle") {
         document.getElementById("infDir").style.color = "#FFFFFF"
         document.getElementById("supEsq").style.color = "#FFFFFF"
         document.getElementById("infDir").style.backgroundColor = "#4682B4"
         document.getElementById("supEsq").style.backgroundColor = "#4682B4"
     }
-    
-    if(nome === "Snorlax"){
+
+    if (nome === "Snorlax") {
         document.getElementById("infDir").style.color = "#4682B4"
         document.getElementById("supEsq").style.color = "#4682B4"
         document.getElementById("infDir").style.backgroundColor = "#D3D3D3"
         document.getElementById("supEsq").style.backgroundColor = "#D3D3D3"
     }
 
-    if(nome === "Evee"){
+    if (nome === "Evee") {
         document.getElementById("infDir").style.color = "#8B4513"
         document.getElementById("supEsq").style.color = "#8B4513"
         document.getElementById("infDir").style.backgroundColor = "#F4A460"
         document.getElementById("supEsq").style.backgroundColor = "#F4A460"
     }
-    
-    if(nome === "Charmander"){
+
+    if (nome === "Charmander") {
         document.getElementById("infDir").style.color = "#FF4500"
         document.getElementById("supEsq").style.color = "#FF4500"
         document.getElementById("infDir").style.backgroundColor = "#FFA500"
         document.getElementById("supEsq").style.backgroundColor = "#FFA500"
     }
-    
+
 
     //logica para trocar a foto
     if (nome === "Pikachu") {
